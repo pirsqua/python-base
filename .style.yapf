@@ -1,0 +1,9 @@
+[style]
+based_on_style = google
+column_limit = 120
+disable_ending_comma_heuristic = true
+split_before_named_assigns = false
+split_before_first_argument = false
+blank_line_before_nested_class_or_def = false
+no_spaces_around_selected_binary_operators = true
+indent_blank_lines = true

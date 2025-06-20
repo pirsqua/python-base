@@ -1,0 +1,26 @@
+{
+    // Editor-wide formatting behavior
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "ruff.organizeImports": false,
+    // Python settings
+    "[python]": {
+        "editor.defaultFormatter": "eeyore.yapf",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.inlayHints.functionReturnTypes": false,
+    "python.experiments.enabled": false,
+    // Exclude noisy folders
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
+    "search.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    }
+}
